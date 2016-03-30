@@ -1,0 +1,31 @@
+* {
+    font-family: 'Roboto' !important;
+}
+
+.home .aq-block:first-child .divide10 {
+    height: 0;
+}
+
+.showbiz-navigation {
+    position: relative;
+    text-align: center;
+    padding: 10px 0;
+    top: -10px;
+}
+
+.showbiz-navigation .btn {
+    width: 40px;
+    height: 40px;
+    line-height: 44px;
+    padding: 0;
+}
+
+footer {
+    background: #171717 !important;
+    box-shadow: none !important;
+    padding: 25px 0 0;
+}
+
+.galleria-counter {
+    display: none !important;
+}

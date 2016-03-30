@@ -1,0 +1,137 @@
+.navbar-fixed-top .nav-collapse {
+    overflow: hidden !important;
+    text-align: center !important;
+}
+
+p {
+    font-size:18px !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Roboto !important;
+}
+
+h1{
+    font-size: 28px !important;
+}
+
+.lead{
+    font-size: 40px;
+    font-family: Roboto !important;
+}
+
+h3{
+    font-size: 28px !important;
+    line-height: 34px !important;
+}
+
+.btn-large, .parallax .btn {
+    font-size: 20px !important;
+    font-weight: bold !important;
+}
+
+/*.section-title {
+font-size: 22px !important;
+font-weight: bold !important;
+}*/
+
+footer .container .inner {
+    padding-top:0 !important;
+}
+
+footer .container .row, footer .container hr { 
+    display: none;
+}
+
+.fix-portfolio .filter li a {
+    font-size: 15px !important;
+}
+.btn {
+    box-shadow: inset 0 0 0!important;
+    padding: 8px 11px 8px 11px;
+}
+
+hr {
+    border-bottom: 2px solid #7C7C7C !important;
+}
+
+.navigation{
+    border-bottom: 2px solid #7C7C7C;
+    margin-bottom: 0px !important;
+    border-bottom:0px;
+}
+
+.inner {
+    padding-top: 0px !important;
+    padding-bottom: 20px !important;
+}
+
+/*GRID_BORDER*/
+.full-portfolio .items li {
+/*box-shadow: 0 0 0 2px #7C7C7C;*/
+    outline: #2E2E2E solid 2px;;
+}
+
+.divide70 {
+    height:40px !important;
+}
+
+/*SOCIAL BOTTOM*/
+.single-portfolio .span8 {
+    width: 100% !important;
+    margin-bottom: 30px !important;
+}
+
+/*MOBILE_HR*/
+@media (max-width: 767px) {
+    .aq-block-aq_ebor_clear_block {
+        display: block!important;
+    }
+}
+
+/*CONTACT*/
+input[type="text"], input[type="email"], textarea{
+    /*background:linear-gradient(#7C7C7C, #161616);!important;*/
+    background-color:#4f4f4f !important;
+    color:#ffffff !important;
+}
+
+input[type="submit"] {
+    box-shadow: inset 0 0 0 !important;
+    padding: 8px 11px 8px 11px;
+}
+/*
+input:focus:invalid, textarea:focus:invalid, select:focus:invalid {
+    color: pink !important;
+}*/
+
+/*WPML
+.lang_sel_list_horizontal {
+display: none !important;
+}*/
+
+/*MENU_SELECTA
+.lang_sel_click li{
+display: inline !important;
+padding:0 !important;
+}*/
+
+/*CAROUSEL
+.owl-carousel .owl-stage-outer{
+height: 300px !important;
+}*/
+
+/*TEXTE_SELECTION*/
+::selection {
+    color:#ffffff !important;
+    background: #A700B8 !important;
+}
+
+
+/*GALERIE*/
+.galleria-container {
+    background-color:#2B2B2B!important;
+}
+.galleria-info {
+    display:none !important;
+}
