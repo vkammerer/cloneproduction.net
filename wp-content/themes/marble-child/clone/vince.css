@@ -2,6 +2,20 @@
     font-family: 'Roboto' !important;
 }
 
+.fa {
+    font-family: FontAwesome !important;
+}
+
+body {
+    font-size: 18px;
+}
+
+footer {
+    background: #171717 !important;
+    box-shadow: none !important;
+    padding: 25px 0 0;
+}
+
 .home .aq-block:first-child .divide10 {
     height: 0;
 }
@@ -16,15 +30,12 @@
 .showbiz-navigation .btn {
     width: 40px;
     height: 40px;
-    line-height: 44px;
+    line-height: 44px; 
     padding: 0;
 }
 
-footer {
-    background: #171717 !important;
-    box-shadow: none !important;
-    padding: 25px 0 0;
-}
+
+/* Galerie */
 
 .galleria-counter {
     display: none !important;
@@ -42,4 +53,63 @@ footer {
 }
 .galleria-thumbnails-container {
     bottom: -70px;
+}
+
+/* Bug fixes */
+
+.filter {
+    margin: 20px 0 0 !important;
+}
+.filter li a,
+.fix-portfolio .filter li a {
+    color: #b2b2b2;
+}
+
+.resume-item p {
+    margin-top: 10px;
+    color: #9e9e9e;
+}
+.resume-item strong {
+    font-weight: normal;
+}
+.resume-item strong:nth-child(1) {
+    font-weight: bold;
+    color: #d8d8d8;
+}
+a:hover, a:focus {
+    color: #8c0099;
+}
+
+.item-details li span {
+    color: #737373;
+}
+
+.navigation {
+    padding: 20px 0;
+}    
+.navigation .back {
+    display: none;
+}
+
+.single-portfolio .container.inner .divide30:nth-child(2) {
+    display: none;
+}
+
+#header .responsive-menu, #header.navbar-fixed-top .nav-collapse {
+    overflow: hidden;
+}
+
+footer .inner {
+    padding-bottom: 10px;
+}
+
+.single-portfolio .section-title {
+    text-align: center;
+}
+
+.contact-networks a {
+    line-height: 300%;
+}
+.contact-networks a:not(:hover) {
+    color: #9e9e9e;
 }

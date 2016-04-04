@@ -1,42 +1,42 @@
-.navbar-fixed-top .nav-collapse {
-    overflow: hidden !important;
-    text-align: center !important;
-}
-
 p {
-    font-size:18px !important;
+    font-size:18px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: Roboto !important;
+    font-family: Roboto;
 }
 
-h1{
-    font-size: 28px !important;
+h1,
+.parallax h1 {
+    font-size: 28px;
 }
 
-.lead{
-    font-size: 40px;
-    font-family: Roboto !important;
+.section-title,
+h3 {
+    font-size: 28px;
+    line-height: 34px;
+}
+#customize-controls h3 {
+    font-size: 14px;
+}
+.lead {
+    font-size: 18px;
+    font-family: Roboto;
 }
 
-h3{
-    font-size: 28px !important;
-    line-height: 34px !important;
+.navbar-fixed-top .nav-collapse {
+    overflow: hidden;
+    text-align: center;
 }
 
 .btn-large, .parallax .btn {
-    font-size: 20px !important;
-    font-weight: bold !important;
+    font-size: 20px;
+    font-weight: bold;
 }
 
-/*.section-title {
-font-size: 22px !important;
-font-weight: bold !important;
-}*/
-
+.inner,
 footer .container .inner {
-    padding-top:0 !important;
+    padding-top:0;
 }
 
 footer .container .row, footer .container hr { 
@@ -44,93 +44,74 @@ footer .container .row, footer .container hr {
 }
 
 .fix-portfolio .filter li a {
-    font-size: 15px !important;
+    font-size: 15px;
 }
-.btn {
-    box-shadow: inset 0 0 0!important;
+
+.btn, .btn-group > .btn, .parallax .btn, #submit, .woocommerce-info, .woocommerce-message, button, .button, .added_to_cart, input[type="submit"], .parallax .btn,
+.btn:hover, .btn:focus, .btn:active, .btn.active, #submit:hover, input[type="submit"]:hover, .button:hover {
+    box-shadow: none;
     padding: 8px 11px 8px 11px;
 }
 
 hr {
-    border-bottom: 2px solid #7C7C7C !important;
+    border-bottom: 2px solid #7C7C7C;
 }
 
 .navigation{
     border-bottom: 2px solid #7C7C7C;
-    margin-bottom: 0px !important;
+    margin-bottom: 0px;
     border-bottom:0px;
 }
 
-.inner {
-    padding-top: 0px !important;
-    padding-bottom: 20px !important;
+.parallax .inner,
+.ebor-showcase-filters .inner {
+    padding-top: 0px;
+    padding-bottom: 20px;
 }
 
 /*GRID_BORDER*/
 .full-portfolio .items li {
-/*box-shadow: 0 0 0 2px #7C7C7C;*/
     outline: #2E2E2E solid 2px;;
 }
 
 .divide70 {
-    height:40px !important;
+    height:40px;
 }
 
 /*SOCIAL BOTTOM*/
 .single-portfolio .span8 {
-    width: 100% !important;
-    margin-bottom: 30px !important;
+    margin-bottom: 30px;
 }
 
 /*MOBILE_HR*/
 @media (max-width: 767px) {
     .aq-block-aq_ebor_clear_block {
-        display: block!important;
+        display: block;
     }
 }
 
 /*CONTACT*/
-input[type="text"], input[type="email"], textarea{
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="date"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus, input[type="number"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="color"]:focus, .uneditable-input:focus,
+input[type="text"], input[type="email"], textarea {
     /*background:linear-gradient(#7C7C7C, #161616);!important;*/
-    background-color:#4f4f4f !important;
-    color:#ffffff !important;
+    background-color:#4f4f4f;
+    color:#ffffff;
 }
 
 input[type="submit"] {
-    box-shadow: inset 0 0 0 !important;
+    box-shadow: inset 0 0 0;
     padding: 8px 11px 8px 11px;
 }
-/*
-input:focus:invalid, textarea:focus:invalid, select:focus:invalid {
-    color: pink !important;
-}*/
-
-/*WPML
-.lang_sel_list_horizontal {
-display: none !important;
-}*/
-
-/*MENU_SELECTA
-.lang_sel_click li{
-display: inline !important;
-padding:0 !important;
-}*/
-
-/*CAROUSEL
-.owl-carousel .owl-stage-outer{
-height: 300px !important;
-}*/
 
 /*TEXTE_SELECTION*/
 ::selection {
-    color:#ffffff !important;
-    background: #A700B8 !important;
+    color:#ffffff;
+    background: #A700B8;
 }
-
 
 /*GALERIE*/
 .galleria-container {
-    background-color:#2B2B2B!important;
+    background-color:#2B2B2B;
 }
 .galleria-info {
     display:none !important;
